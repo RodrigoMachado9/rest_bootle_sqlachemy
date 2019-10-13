@@ -8,7 +8,7 @@ metadata = MetaData(bind=engine)
 
 
 # todo, repassar a construção das tabelas do
-#  schema publioc para schema pertinente as entidades;
+#  schema public para schema pertinente as entidades;
 
 artists = Table('artistas', metadata,
                 Column('id', Integer, primary_key=True, autoincrement=True),
