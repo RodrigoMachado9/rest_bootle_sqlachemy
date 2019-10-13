@@ -26,7 +26,7 @@ def post_artist():
     Insere dados na API
     Formato do input:
         Content-Type: application/json
-        payload: {"nome":"Zimbra"}
+        payload: {"nome":"A7x"}
     """
     artista = request.json
     print(artista)
